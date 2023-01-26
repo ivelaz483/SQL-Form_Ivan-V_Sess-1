@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to bottom, #336699 0%, #00ccff 100%);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#cl2 {
+    border: 1.5px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-left: -60px;
+}
+
+#btn {
+    font-family: 'Merriweather', serif;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
